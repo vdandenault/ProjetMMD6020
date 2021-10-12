@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+ipywidgets
+opencv-python
+sklearn
+seaborn
+dicom
+pydicom
+torch
+tqdm
+papermill
+logger
+mlflow==1.7.0
