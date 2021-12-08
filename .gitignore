@@ -130,4 +130,4 @@ dmypy.json
 
 #Folder for data
 data/
-Mlruns/
+mlruns/
