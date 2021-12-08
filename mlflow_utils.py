@@ -16,7 +16,6 @@ def plot_roc(y_true: np.ndarray, y_pred: np.ndarray, model_name: str, plot_dir: 
     plt.plot(fpr, tpr, color='b')
     plt.title('ROC curve: {}'.format(model_name))
 
-    # Save figure
     if plot_dir:
         output_path = '{}/plots/roc_curve_{}.png'.format(plot_dir, model_name)
         plt.savefig(output_path)
@@ -34,7 +33,6 @@ def plot_precision_recall(y_true: np.ndarray, y_pred: np.ndarray, model_name: st
     plt.legend()
     plt.title('Precision-recall curve: {}'.format(model_name))
 
-    # Save figure
     if plot_dir:
         output_path = '{}/plots/precision_recall_{}.png'.format(plot_dir, model_name)
         plt.savefig(output_path)
