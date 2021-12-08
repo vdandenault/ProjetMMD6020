@@ -7,7 +7,7 @@ To execute the project, you must use the Runner provided in 'runner.ipynb'. This
 
 ## Contributing
 Pull request on welcomed. Here is a shortlist of tasks that should be prioritized next: \
-  1. Expend the runner to include expend the hyperparameter search \
+  1. Expend the runner to expend the hyperparameter search \
   2. Add metrics and visualisation functions to be logged into MLflow for better model tracking \
   3. Add explainability of the current models with SHAP and PATH_EXPLAIN \
   4. Add data augmentation technics to better add robustness to the data \
